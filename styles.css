@@ -93,8 +93,8 @@ nav > a{
     transition: all ease 1s;
 }
 .pro-img{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 .code-logo{
