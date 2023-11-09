@@ -97,6 +97,11 @@ nav > a{
     height: 200px;
     border-radius: 50%;
 }
+.pro-img-two{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
 .code-logo{
     position: absolute;
     width: 400px;
@@ -188,9 +193,9 @@ nav > a{
     text-align: start;
 }
 
-@media (max-width:560px) {
+/* @media (max-width:560px) {
     .pro-img{
         width: 200px;
         height: 200px;
     }
-}
+} */
