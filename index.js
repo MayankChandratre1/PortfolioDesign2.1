@@ -23,7 +23,7 @@
       }
 
 $(window).scroll(()=>{
-   if($("#aboutme").offset().top <= $(window).scrollTop()){
+   if($("#aboutme").offset().top <= $(window).scrollTop()+100){
       $(".about-text").animate(
          {
              opacity:"1",

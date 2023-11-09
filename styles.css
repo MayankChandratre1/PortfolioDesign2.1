@@ -50,7 +50,7 @@ body{
     
 }
 
-section{
+.home{
     min-height: 100dvh;
 }
 
@@ -131,7 +131,7 @@ nav > a{
 
 .about-me{
     position: relative;
-    height: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +141,7 @@ nav > a{
     width: 40%;
 }
 .skills-section{
-    height: 100%;
+   
     position: relative;
     padding: 2rem;
 }
@@ -169,7 +169,7 @@ nav > a{
 }
 
 .projects-section{
-    height: 100%;
+    
     position: relative;
     padding: 2rem;
 }
@@ -177,13 +177,20 @@ nav > a{
     position: relative;
     padding: 2rem;    
 }
-.contact-me-section .container{
+/* .contact-me-section .container{
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
+} */
 .contact-me-section .container button{
     width: 120px;
     text-align: start;
+}
+
+@media (min-width:560px) {
+    .pro-img{
+        width: 200px;
+        height: 200px;
+    }
 }
