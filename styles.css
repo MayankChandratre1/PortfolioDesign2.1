@@ -173,3 +173,17 @@ nav > a{
     position: relative;
     padding: 2rem;
 }
+.contact-me-section{
+    position: relative;
+    padding: 2rem;    
+}
+.contact-me-section .container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact-me-section .container button{
+    width: 120px;
+    text-align: start;
+}
