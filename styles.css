@@ -67,7 +67,7 @@ body{
     position: fixed;
     width: 100%;
     height: calc(100dvh + 300px);
-    position: fixed;
+  
     background-image:url(./assets/images/willian-justen-de-vasconcellos-jUCQRQeRs3k-unsplash.jpg);
     background-size:cover;
     background-position: center;
@@ -175,9 +175,11 @@ nav > a{
 }
 
 .projects-section{
-    
     position: relative;
     padding: 2rem;
+}
+.projects-section .card{
+  width:20vw;
 }
 .contact-me-section{
     position: relative;
