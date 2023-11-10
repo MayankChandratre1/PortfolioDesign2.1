@@ -65,7 +65,7 @@ body{
 }
 .back-img-container{
     width: 100%;
-    height: calc(100dvh + 100px);
+    height: calc(100dvh + 300px);
     position: fixed;
     background-image:url(./assets/images/willian-justen-de-vasconcellos-jUCQRQeRs3k-unsplash.jpg);
     background-size:cover;
