@@ -137,14 +137,13 @@ nav > a{
 
 .about-me{
     position: relative;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
 }
 .about-me .about-text{
-    width: 40%;
+    width: calc(40% + 100px);
 }
 .skills-section{
    
@@ -197,6 +196,14 @@ nav > a{
 }
 
 @media (max-width:560px) {
+    .about-me{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 5rem;
+    }
+
     .about-me .about-text{
         width: 200px;
     }
