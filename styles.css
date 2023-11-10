@@ -137,14 +137,15 @@ nav > a{
 
 .about-me{
     position: relative;
+    width: 90vw;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
 }
-.about-me .about-text{
+/* .about-me .about-text{
     width: 50vw;
-}
+} */
 .skills-section{
    
     position: relative;
