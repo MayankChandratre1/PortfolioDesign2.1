@@ -196,9 +196,8 @@ nav > a{
     text-align: start;
 }
 
-/* @media (max-width:560px) {
-    .pro-img{
+@media (max-width:560px) {
+    .about-me .about-text{
         width: 200px;
-        height: 200px;
     }
-} */
+} 
