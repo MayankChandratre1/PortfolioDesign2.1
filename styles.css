@@ -14,9 +14,32 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
+
+body::-webkit-scrollbar{
     display: none;
 }
+
+::-webkit-scrollbar {
+   
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--textLight); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--bs-body-bg); 
+  }
 
 
 body{
@@ -194,6 +217,15 @@ nav > a{
 .contact-me-section .container button{
     width: 120px;
     text-align: start;
+}
+
+.album .container .card{
+    min-width: 300px !important;
+    margin-bottom: 1rem !important;
+}
+
+.album .container{
+    overflow-x: scroll;
 }
 
 /* @media (max-width:560px) {
